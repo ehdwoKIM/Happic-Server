@@ -11,6 +11,7 @@ class KakaoAuthStrategy implements SocialAuthStrategy {
   }
 }
 
+
 type AuthType = {
   [social in SocialPlatform]: SocialAuthStrategy;
 };
